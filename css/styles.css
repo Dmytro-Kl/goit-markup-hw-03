@@ -43,6 +43,10 @@ p {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 /* Прибираємо крапки зі списків */
 .list {
   list-style: none;
@@ -72,6 +76,10 @@ p {
 }
 
 /* Header */
+
+.header {
+  border: 1px solid #ececec;
+}
 
 .logo-header {
   display: block;
@@ -313,7 +321,12 @@ p {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 26px;
+}
+
+.portfolio-item {
+  background: var(--white-text-color);
+  border: 1px solid #eeeeee;
 }
 
 .portfolio-list-titel {

@@ -26,6 +26,11 @@
   background-color: var(--background-white-color);
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* reset */
 ul {
   margin: 0;
@@ -78,7 +83,7 @@ img {
 /* Header */
 
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo-header {
@@ -186,8 +191,6 @@ img {
 
 .features-section {
   background-color: var(--background-white-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .features-list {
@@ -227,7 +230,6 @@ img {
 
 .work-section {
   background-color: var(--background-white-color);
-  padding-bottom: 94px;
 }
 
 .work-titel {
@@ -248,7 +250,6 @@ img {
 
 .team-section {
   background-color: var(--background-lite-color);
-  padding-bottom: 94px;
 }
 
 .section-title {
@@ -258,7 +259,6 @@ img {
   color: var(--titel-txt-cl);
   text-align: center;
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 
 .team-list {
@@ -287,8 +287,6 @@ img {
 
 .portfolio-section {
   background-color: var(--background-white-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .portfolio-btn-list {
@@ -321,12 +319,12 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 26px;
+  gap: 30px;
 }
 
 .portfolio-item {
   background: var(--white-text-color);
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .portfolio-list-titel {

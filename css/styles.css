@@ -23,7 +23,6 @@
   font-family: var(--main-font);
   letter-spacing: 0.03em;
   color: var(--titel-txt-cl);
-  background-color: var(--background-white-color);
 }
 
 .section {
@@ -84,12 +83,12 @@ img {
 
 .header {
   border-bottom: 1px solid #ececec;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .logo-header {
   display: block;
-  padding-top: 25px;
-  padding-bottom: 25px;
   margin-right: 93px;
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -105,21 +104,19 @@ img {
 .header-nav-list {
   display: flex;
   gap: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-nav-link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--titel-txt-cl);
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-contact-link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -142,8 +139,6 @@ img {
   display: flex;
   margin-left: auto;
   gap: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 /* main */
@@ -198,6 +193,10 @@ img {
   gap: 30px;
 }
 
+.features-item {
+  width: 270px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -230,6 +229,7 @@ img {
 
 .work-section {
   background-color: var(--background-white-color);
+  padding-top: 0px;
 }
 
 .work-titel {
@@ -265,13 +265,16 @@ img {
   display: flex;
   gap: 30px;
 }
+.container-team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 .team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
   color: var(--titel-txt-cl);
-  margin-top: 30px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -279,20 +282,16 @@ img {
 .team-text {
   line-height: calc(19 / 16);
   color: var(--main-txt-cl);
-  margin-bottom: 30px;
   text-align: center;
 }
 
 /* -----portfolio----- */
 
-.portfolio-section {
-  background-color: var(--background-white-color);
-}
-
 .portfolio-btn-list {
   display: flex;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 50px;
 }
 
 .portfolio-btn {
@@ -307,13 +306,19 @@ img {
   border-radius: 4px;
   border: none;
   padding: 6px 22px;
-  margin-bottom: 50px;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
+}
+
+.container-portfolio-text {
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .portfolio-list {
@@ -324,7 +329,6 @@ img {
 
 .portfolio-item {
   background: var(--white-text-color);
-  border-bottom: 1px solid #eeeeee;
 }
 
 .portfolio-list-titel {
@@ -333,7 +337,6 @@ img {
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--titel-txt-cl);
-  margin-top: 20px;
   margin-bottom: 4px;
 }
 
